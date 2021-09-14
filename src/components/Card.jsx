@@ -1,10 +1,9 @@
 import React from "react";
 
 const Card = (prop) => {
-  console.log(prop.Datos);
   return (
-    <div className="">
-      <div className="card" style={{ width: "18rem", border: "4px solid #ff00ff" }}>
+    <div className="w-100">
+      <div className="card w-100 p-4" style={{ border: "4px solid #ff00ff" }}>
         <div className="d-flex mt-2 justify-content-center">
           <img
             className="card-img-top bg-secondary"
@@ -27,7 +26,7 @@ const Card = (prop) => {
           <input
             type="submit"
             value="Click"
-            className="btn btn-primary w-50"
+            className="btn btn-primary w-50 m-2"
             onClick={prop.PokeApi}
           />
         </div>
