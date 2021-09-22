@@ -1,3 +1,3 @@
-# if u wanna run this code, run "npm install"
-# capture
+## Pokemon Card
+### capture
 ![](./capture.png)
